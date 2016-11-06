@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perry Stephenson Launches Site"i
+title: "Perry Stephenson Launches Site"
 date: 2016-11-07
 ---
 
