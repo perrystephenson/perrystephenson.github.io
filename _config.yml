@@ -1,15 +1,15 @@
 # Site settings
-title: Clean Blog
+title: Perry Stephenson
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+email: perry.stephenson+blog@gmail.com
+copyright_name: Perry Stephenson
+description: "Data Scientist"
+baseurl: ""
+url: "https://perrystephenson.github.io/"
+twitter_username: perrystephenson
+github_username:  perrystephenson
+facebook_username:  perry.stephenson
+email_username:  perry.stephenson+blog@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
