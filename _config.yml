@@ -8,7 +8,7 @@ baseurl: ""
 url: "https://perrystephenson.github.io/"
 twitter_username: perrystephenson
 github_username:  perrystephenson
-facebook_username:  perry.stephenson
+# facebook_username:  perry.stephenson
 email_username:  perry.stephenson+blog@gmail.com
 
 # Google Analytics
