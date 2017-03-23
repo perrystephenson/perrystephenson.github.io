@@ -106,7 +106,7 @@ ggplot(state_fatal) +
   ylab("Fatalities per state / state population")
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 This shows that NSW and VIC are right in the middle of the pack, and it was indeed their large populations that were making them appear so large in comparison to the other states. This visualisation also demonstrates the significantly higher fatality rate in the Northern Territory, and shows that the ACT is the best performing state for road fatalities.
 
@@ -118,7 +118,7 @@ ggplot(state_fatal) +
   ylab("Fatalities per state / state population")
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 This is useful, but because of the huge differences in bar heights, it's not immediately clear what the relative differences are between states. To fix this, we can use the "fill" position.
 
@@ -129,7 +129,7 @@ ggplot(state_fatal) +
   ylab("Fraction of fatalities in state")
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 This is a much better visualisation, as it allows the reader to easily see that Northern Territory and Western Australia seem to have a much higher rate of single vehicle fatalities than the other states, and a lower rate of multiple vehicle fatalities. We can now extend this to the other attributes we want to look at.
 
@@ -146,7 +146,7 @@ state_fatal %>%
   ylab("Fraction of fatalities in state")
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 This is interesting as it shows that the rate of heavy vehicle involvement in fatal crashes is relatively constant across states, with a few notable exceptions. I can not think of any plausible explanations for why this should be the case, but this visualisation certainly provides enough intrigue that I'm probably going to try and figure it out later on.
 
@@ -157,7 +157,7 @@ ggplot(state_fatal) +
   ylab("Fraction of fatalities in state")
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 This is hardly surprising given everything that we hear about male drivers. We can drill down further on this one later, given that we also have the age of the deceased.
 
@@ -168,7 +168,7 @@ ggplot(state_fatal) +
   ylab("Fraction of fatalities in state")
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 This is what I really came here for. Every time I tell someone that I'm a cyclist, their immediate assumption is that I am probably going to be killed on the roads. Any time statistics are used to support this widely held belief, they tend to be of the form "fatalities per million km travelled". This is a bit misleading when looking at vehicles that don't travel very far - a typical motorist travels 15-20 thousand km every year, where a commuting cyclist riding 50km per week will only achieve 2500km per year. There isn't an easy way to compare these two risks of death, as you could argue that fatalities per million hours on the road might be better for some people, whilst fatalities per million people per year using average km might be better for others.
 
@@ -185,7 +185,7 @@ fatal %>%
                alpha = 0.5)
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-10-1.png)
 
 From this visualisation it is clear that young men are indeed the most likely to die on the roads, and that men of all ages are more likely to die than women of the same age. It is also clear that the distributions are roughly bimodal, and that there is likely a "youth" factor and an "old age" factor behind each of these peaks.
 
@@ -200,7 +200,7 @@ fatal %>%
   geom_bar(aes(x = as.factor(Speed_Limit)))
 ```
 
-![](part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](https://perrystephenson.github.io/part_a_ggplot2_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
 It's fair to say that this visualisation is far from confirming my suspicions, however it is certainly showing that 100km/h roads are single most likely place for a cyclist to die, accounting for over 1/3 of all cyclist deaths. The relative differences between 50/60/80km/h roads are harder to interpret due to the unknown number of kilometers travelled by cyclists on each of these road types - whilst 50km/h roads look relatively safe it could be a function of these roads being relatively rare.
 
